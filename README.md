@@ -1,1 +1,1 @@
-# http-wagmint.github.io
+# wagmint.github.io
