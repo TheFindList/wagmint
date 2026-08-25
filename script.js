@@ -12,10 +12,25 @@ const knownImages={
   'Benebone Wishbone Durable Dog Chew Toy':'https://www.benebone.com/cdn/shop/products/854111004972.jpg?v=1752901729&width=1946',
   'Dexas MudBuster Portable Dog Paw Cleaner':'https://m.media-amazon.com/images/I/41qozu85zVL._AC_SL1000_.jpg',
   'KONG Classic Dog Toy':'https://www.moustaches.fr/6952-large_default/kong-rouge-small.jpg',
+  'PETLIBRO Dockstream Cordless Cat Water Fountain':'https://assets.wfcdn.com/im/76600568/compr-r85/3578/357846470/Dockstream%2BBattery%2BOperated%2BCat%2BWater%2BFountain%2B%2B1%2BReplacement%2BWireless%2BPump.jpg',
   'Catstages Tower of Tracks Interactive 3-Tier Cat Toy':'https://m.media-amazon.com/images/I/71u76GmimqL._AC_SL1500_.jpg',
   'FUKUMARU Cat Scratcher, 26.8 Inch L Shaped Cat Scratch Pad for Indoor Cats':'https://m.media-amazon.com/images/I/410OQUfl0cL._AC_SL1000_.jpg',
+  'Whiskertons Interactive Bird Simulation Cat Toy Set':'https://whiskertons.com/cdn/shop/files/whiskertons-interactive-bird-simulation-cat-toy-set-with-5-unique-realistic-birds_31995a47-0bab-4be7-921b-1840afcf95b2.jpg?v=1761685202&width=2048',
   'PETLIBRO Automatic Cat Feeder with Camera, 1080P HD & Night Vision':'https://m.media-amazon.com/images/I/71sXahhiuKL._AC_SL1500_.jpg',
-  'Solar Smart Bird Feeder with Camera, 4K HDR Live Video, AI Bird IDs':'https://images-cdn.ubuy.co.in/69bd6648118cd98d0c027336-solar-smart-bird-feeder-with-camera-ai.jpg'
+  'JW Pet Company Activitoys Hol-ee Roller Bird Toy':'https://goldencockatoo.com/cdn/shop/products/afccef36146536e66f9573dbf4a804f5.jpg?v=1736010474',
+  'JW Pet Insight Sand Perch Swing Bird Accessory':'https://supertails.com/cdn/shop/files/Frame106724729_600x.png?v=1734943057',
+  'Lixit Quick Lock Bird Bath':'https://i5.walmartimages.com/asr/1c1ae1ad-c4ab-4929-ac3b-075364074d42_1.6f2ba1cd7b895314df206a7c7b467d1c.jpeg',
+  'Solar Smart Bird Feeder with Camera, 4K HDR Live Video, AI Bird IDs':'https://images-cdn.ubuy.co.in/69bd6648118cd98d0c027336-solar-smart-bird-feeder-with-camera-ai.jpg',
+  'Oxbow Enriched Life Willow Play Cube Small Animal Toy':'https://www.naturalpetwarehouse.com/assets/images/oxbow-enriched-life-willow-play-cube-small-animal-toy-3-pack-3.jpg',
+  'Oxbow Timothy Club Bungalow Small Animal Hideout':'https://petmedsdirect.ca/cdn/shop/files/109133_0-L_dcb81a01-fa1c-437e-bd2c-e22645d96ee2.jpg?v=1764476874',
+  'Kaytee Premium Timothy Treat Hideout for Rabbits, Guinea Pigs, Large':'https://i5.walmartimages.com/seo/Kaytee-Premium-Timothy-Hay-Treat-Hideout-for-Small-Animals-Large_f5eabce7-ecb1-4ffc-a477-ac37b2699ab4.38a04ad8dc408477697e78d84d83e528.jpeg',
+  'SunGrow Rabbit, Bunny & Guinea Pig Hay Feeder Rack Food Dispenser':'https://www.ubuy.ec/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTF0VUR1QmZMZkwuX0FDX1NMMTUwMF8uanBn.jpg',
+  'Small Pet Select Tiny Paws Willow Play Pack':'https://shop.smallpetselect.com/cdn/shop/files/459.png?crop=center&height=1200&v=1741872455&width=1200',
+  'Zoo Med ReptiTemp Digital Infrared Thermometer':'https://i5.walmartimages.com/seo/Zoo-Med-ReptiTemp-Digital-Infrared-Thermometer_aaa114e7-3844-476e-9ba0-f4a5e16fd56b_2.880f18cec12fbc4de1e453dbd3020868.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768',
+  'Zoo Med Digital Thermometer Humidity Gauge':'https://image.chewy.com/catalog/general/images/zoo-med-digital-combo-reptile-terrarium-thermometer-humidity-gauge/img-54572._AC_SL744_V1_.jpg',
+  'REPTI ZOO Digital Thermometer Hygrometer':'https://m.newrunreptile.co.kr/web/product/big/202302/e47f4c50555f823d41d95f0ad65a9dbf.jpg',
+  'Exo Terra Reptile Cave':'https://coburgaquarium.com.au/cdn/shop/products/CHL23_0072034c-ea66-4dcc-95d3-d3bb5d8d6548.jpg?v=1659065908',
+  'Zoo Med Angled Stainless Steel Feeding Tongs':'https://shorethingpetsupply.com/cdn/shop/files/t1_1e04a170-e3ce-467a-84d0-67ad5c0f4465_1080x.jpg?v=1734569727'
 };
 
 function esc(v=''){return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;')}
