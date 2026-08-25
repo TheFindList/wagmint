@@ -7,7 +7,11 @@ const filters=document.querySelector('#filterPills');
 let active='All';
 
 const knownImages={
+  'ChomChom Roller Pet Hair Remover and Reusable Lint Roller':'https://akns-images.eonline.com/eol_images/Entire_Site/202442/rs_640x640-240502134555-Chom_Chom_Roller_Pet_Hair_Remover_and_Reusable_Lint_Roller.jpg',
+  'Outward Hound Nina Ottosson Dog Brick Interactive Treat Puzzle Dog Toy':'https://images-na.ssl-images-amazon.com/images/I/71qjzsDJPBL.jpg',
+  'Benebone Wishbone Durable Dog Chew Toy':'https://www.benebone.com/cdn/shop/products/854111004972.jpg?v=1752901729&width=1946',
   'Dexas MudBuster Portable Dog Paw Cleaner':'https://m.media-amazon.com/images/I/41qozu85zVL._AC_SL1000_.jpg',
+  'KONG Classic Dog Toy':'https://www.moustaches.fr/6952-large_default/kong-rouge-small.jpg',
   'Catstages Tower of Tracks Interactive 3-Tier Cat Toy':'https://m.media-amazon.com/images/I/71u76GmimqL._AC_SL1500_.jpg',
   'FUKUMARU Cat Scratcher, 26.8 Inch L Shaped Cat Scratch Pad for Indoor Cats':'https://m.media-amazon.com/images/I/410OQUfl0cL._AC_SL1000_.jpg',
   'PETLIBRO Automatic Cat Feeder with Camera, 1080P HD & Night Vision':'https://m.media-amazon.com/images/I/71sXahhiuKL._AC_SL1500_.jpg',
