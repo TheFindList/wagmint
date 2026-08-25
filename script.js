@@ -30,7 +30,17 @@ const knownImages={
   'Zoo Med Digital Thermometer Humidity Gauge':'https://image.chewy.com/catalog/general/images/zoo-med-digital-combo-reptile-terrarium-thermometer-humidity-gauge/img-54572._AC_SL744_V1_.jpg',
   'REPTI ZOO Digital Thermometer Hygrometer':'https://m.newrunreptile.co.kr/web/product/big/202302/e47f4c50555f823d41d95f0ad65a9dbf.jpg',
   'Exo Terra Reptile Cave':'https://coburgaquarium.com.au/cdn/shop/products/CHL23_0072034c-ea66-4dcc-95d3-d3bb5d8d6548.jpg?v=1659065908',
-  'Zoo Med Angled Stainless Steel Feeding Tongs':'https://shorethingpetsupply.com/cdn/shop/files/t1_1e04a170-e3ce-467a-84d0-67ad5c0f4465_1080x.jpg?v=1734569727'
+  'Zoo Med Angled Stainless Steel Feeding Tongs':'https://shorethingpetsupply.com/cdn/shop/files/t1_1e04a170-e3ce-467a-84d0-67ad5c0f4465_1080x.jpg?v=1734569727',
+  'Flipper FLOAT 2-in-1 Magnetic Aquarium Algae Cleaner':'https://m.media-amazon.com/images/I/61-a9Fqu6xL._AC_SL1500_.jpg',
+  'API Algae Scraper for Glass Aquariums':'https://www.thetechden.com.au/cdn/shop/products/APH239_2048x.jpg?v=1665641792',
+  'Aqueon Aquarium Water Changer':'https://image.chewy.com/catalog/general/images/aqueon-aquarium-water-changer-50ft/img-99485._AC_SS600_V1_.jpg',
+  '3MP 2K AI Reptile Aquarium Camera, Close-Focus Lens for Fish Tank Terrarium':'https://litokam.com/cdn/shop/files/6391ace427ade714b70fb966024ae804.jpg?v=1767608041',
+  'Python No Spill Clean and Fill Aquarium Maintenance System':'https://aquarockscolorado.com/cdn/shop/products/image_dbed8bd1-ce8c-4a25-be54-03a2d657828a.jpg?v=1631208399',
+  'Pet Hair Removal Glove Cat & Dog, Electrostatic Reusable Hair Remover Tool':'https://au.funnyfuzzy.com/cdn/shop/files/FunnyFuzzy_Pet_Hair_Removal_Glove_with_Dual-Sided_Electrostatic_Bristles_-8.jpg?v=1750995005&width=1000',
+  'FURemover Original Indoor Pet Hair Rubber Broom':'https://m.media-amazon.com/images/I/41mYFK7mlML._SL500_.jpg',
+  'Gamma2 Vittles Vault Outback Airtight Pet Food Storage Container':'https://i5.walmartimages.com/seo/Gamma2-Vittles-Vault-Outback-Airtight-Pet-Food-Storage-Container-Grey-50-Lb_7d8b8e19-0482-4d63-9934-285b30595cb3.029f407a9d5423da2daada77d792e1e3.jpeg',
+  'K&H Pet Products Bucket Booster Pet Seat':'https://i5.walmartimages.com/asr/f0493f18-06fe-4f21-962c-b3911aac9220.2e91f24048fc2d57b1068584241d925e.jpeg',
+  'URPOWER Dog Seat Cover Car Seat Cover for Pets':'https://images-na.ssl-images-amazon.com/images/I/719G4sHWobL.jpg'
 };
 
 function esc(v=''){return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;')}
