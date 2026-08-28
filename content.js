@@ -45,11 +45,11 @@ products:[
 {title:'K&H Pet Products Bucket Booster Pet Seat',category:'Pet Home & Travel',price:'Travel find',badge:'ON THE GO',color:'sand',symbol:'🚗',link:'https://amzn.to/3UeR7Yi'},
 {title:'URPOWER Dog Seat Cover Car Seat Cover for Pets',category:'Pet Home & Travel',categories:['Pet Home & Travel','Dog Finds'],price:'Car protection find',badge:'TRAVEL FIND',color:'sand',symbol:'🚗',link:'https://amzn.to/46oaaSw'}],
 collections:[
-{title:'New Pet Starter List',subtitle:'Useful basics to research before day one',number:'01',color:'warm'},
-{title:'Small-Space Pet Living',subtitle:'Organization ideas for happier shared spaces',number:'02',color:'cool'},
-{title:'Pet Travel, Simplified',subtitle:'Planning ideas for safer, easier trips',number:'03',color:'green'}],
+{title:'New Pet Starter List',subtitle:'Useful basics to research before day one',number:'01',color:'warm',link:'guides/new-pet-checklist.html'},
+{title:'Small-Space Pet Living',subtitle:'Organization ideas for happier shared spaces',number:'02',color:'cool',link:'guides/organize-pet-supplies.html'},
+{title:'Pet Travel, Simplified',subtitle:'Planning ideas for safer, easier trips',number:'03',color:'green',link:'guides/pet-travel-checklist.html'}],
 articles:[
-{title:'The new-pet checklist worth saving before bringing them home',tag:'NEW PET',read:'6 min read',color:'clay'},
-{title:'How to organize pet supplies without taking over your home',tag:'PET HOME',read:'5 min read',color:'sage'},
-{title:'A saveable pet-travel planning checklist for your next trip',tag:'TRAVEL',read:'4 min read',color:'gold'}]
+{title:'The new-pet checklist worth saving before bringing them home',tag:'NEW PET',read:'6 min read',color:'clay',link:'guides/new-pet-checklist.html'},
+{title:'How to organize pet supplies without taking over your home',tag:'PET HOME',read:'5 min read',color:'sage',link:'guides/organize-pet-supplies.html'},
+{title:'A saveable pet-travel planning checklist for your next trip',tag:'TRAVEL',read:'4 min read',color:'gold',link:'guides/pet-travel-checklist.html'}]
 };
