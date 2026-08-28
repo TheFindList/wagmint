@@ -56,6 +56,6 @@ function render(){const items=active==='All'?content.products:content.products.f
 render();
 filters.addEventListener('click',e=>{if(!e.target.matches('button'))return;active=e.target.dataset.filter;filters.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b===e.target));render()});
 categoryGrid.addEventListener('click',e=>{const a=e.target.closest('[data-category]');if(!a)return;active=a.dataset.category;filters.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.filter===active));render()});
-collectionGrid.innerHTML=content.collections.map(i=>`<article class="collection-card ${i.color}"><span class="collection-number">${i.number}</span><div><p>WAGMINT COLLECTION</p><h3>${i.title}</h3><span>${i.subtitle}</span></div><b>Explore →</b></article>`).join('');
-articleGrid.innerHTML=content.articles.map(i=>`<article class="article-card"><div class="article-image ${i.color}"><span>${i.tag}</span></div><p class="article-meta">${i.tag} • ${i.read}</p><h3>${i.title}</h3><span class="text-link">Guide coming soon →</span></article>`).join('');
+collectionGrid.innerHTML=content.collections.map(i=>`<a class="collection-card ${i.color}" href="${i.link}"><span class="collection-number">${i.number}</span><div><p>WAGMINT COLLECTION</p><h3>${i.title}</h3><span>${i.subtitle}</span></div><b>Explore →</b></a>`).join('');
+articleGrid.innerHTML=content.articles.map(i=>`<a class="article-card" href="${i.link}"><div class="article-image ${i.color}"><span>${i.tag}</span></div><p class="article-meta">${i.tag} • ${i.read}</p><h3>${i.title}</h3><span class="text-link">Read guide →</span></a>`).join('');
 document.querySelector('.menu-toggle').addEventListener('click',()=>document.body.classList.toggle('menu-open'));
